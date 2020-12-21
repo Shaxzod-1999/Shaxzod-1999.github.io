@@ -1,0 +1,747 @@
+@import 'fonts.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+:root {
+    --col-1: calc(100% / 12 * 1);
+    --col-2: calc(100% / 12 * 2);
+    --col-3: calc(100% / 12 * 3);
+    --col-4: calc(100% / 12 * 4);
+    --col-5: calc(100% / 12 * 5);
+    --col-6: calc(100% / 12 * 6);
+    --col-7: calc(100% / 12 * 7);
+    --col-8: calc(100% / 12 * 8);
+    --col-9: calc(100% / 12 * 9);
+    --col-10: calc(100% / 12 * 10);
+    --col-11: calc(100% / 12 * 11);
+    --col-12: calc(100% / 12 * 12);
+}
+
+body {
+    background: var(--bg_body);
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+/* FLEX-BOX Xsusiyatlari  */
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.flex-colum {
+    flex-direction: column;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+/* Colarni razmeri  */
+
+.col-1 {
+    width: var(--col-1);
+    padding: 0 15px;
+}
+
+.col-2 {
+    width: var(--col-2);
+    padding: 0 15px;
+}
+
+.col-3 {
+    width: var(--col-3);
+    padding: 0 15px;
+}
+
+.col-4 {
+    width: var(--col-4);
+    padding: 0 15px;
+}
+
+.col-6 {
+    width: var(--col-6);
+    padding: 0 15px;
+}
+
+.col-8 {
+    width: var(--col-8);
+    padding: 0 15px;
+}
+
+.col-12 {
+    width: var(--col-12);
+    padding: 0 15px;
+}
+
+
+/* ======== HEADER ======== */
+
+.header {
+    background: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    color: white;
+    padding: 30px 0px 257px;
+}
+
+.logo_p {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Motserrat_Bold';
+}
+
+.head_numb_div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.numb_top {
+    font-weight: 400;
+    font-size: 24px;
+    margin-right: 50px;
+    color: white;
+    font-family: 'Motserrat_Regular';
+}
+
+.but_top {
+    background-color: #68bf3b;
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Motserrat_Regular';
+}
+
+
+.head_zakaz_p1 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 195px;
+    font-family: 'Motserrat_Black';
+}
+
+.head_zakaz_p2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 40px;
+    font-family: 'Motserrat_Regular';
+}
+
+.head_zakaz_h1 {
+    font-size: 72px;
+    font-weight: 400;
+    margin-top: 35px;
+    font-family: 'Motserrat_Black';
+}
+
+.but_menu {
+    background-color: #53ab0c;
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 50px;
+    font-family: 'Motserrat_Regular';
+}
+
+/* ========= ARTICLE ==========*/
+article {
+    padding-top: 80px;
+}
+
+
+
+.Totti_img {
+    height: 418px;
+    width: 340px;
+}
+
+.artic_h2_green {
+    font-size: 36px;
+    font-weight: 700;
+    color: #68bf3b;
+    margin: 26px 0px 33px;
+    font-family: 'Motserrat_Bold';
+}
+
+.artic_p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #bdbdbd;
+    line-height: 36px;
+    font-family: 'Motserrat_Regular';
+}
+
+.art_div2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.Totti {
+    display: flex;
+    align-items: center;
+}
+
+.Totti h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #bdbdbd;
+    padding-right: 60px;
+    font-family: 'Motserrat_Bold';
+}
+
+.Totti img {
+    height: 162px;
+    width: 164px;
+}
+
+.h2_menu_text {
+    font-size: 36px;
+    font-weight: 700;
+    color: #e1f5d0;
+    margin: 65px 0px 50px;
+    font-family: 'Motserrat_Bold';
+}
+
+/* ============== SECTION ============== */
+
+.menu {
+    margin-bottom: 50px;
+}
+
+.img_piz {
+    display: flex;
+    position: relative;
+}
+
+.img_piz span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 30px 0px 0px 30px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #68cd16;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 50%;
+    box-sizing: border-box;
+
+    font-family: 'Motserrat_Bold';
+}
+
+.img_pizza {
+    width: 350px;
+    height: 250px;
+}
+
+.taom_nomi {
+    font-size: 30px;
+    font-weight: 700;
+    color: #a6a6a6;
+    margin-bottom: 30px;
+    font-family: 'Motserrat_Bold';
+}
+
+.resept p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #a6a6a6;
+    line-height: 25px;
+    font-family: 'Motserrat_Regular';
+}
+
+.buyurtma {
+    text-align: right;
+}
+
+.buyurtma p {
+    font-size: 30px;
+    font-weight: 700;
+    color: #a6a6a6;
+    margin-bottom: 28px;
+    font-family: 'Motserrat_Bold';
+}
+
+.buyurtma p span {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Motserrat_Light';
+}
+
+.but_zakaz {
+    background-color: #68bf3b;
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* ========== SECTION_FOOTER ========= */
+
+
+.section_footer {
+    padding: 100px 0px 100px;
+}
+
+.girls_name {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 28px 0 19px;
+    font-family: 'Motserrat_Bold';
+    color: #a6a6a6;
+}
+
+.div_review {
+    text-align: center;
+}
+
+.review {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    font-family: 'Motserrat_Regular';
+    color: #a6a6a6;
+}
+
+/* ============ FOOTER =============== */
+footer {
+    background-color: black;
+    padding: 30px 0 58px;
+}
+
+.p_foot_bottom {
+    color: white;
+    margin: auto;
+    padding-top: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Motserrat_Thin';
+}
+
+
+
+
+
+
+/* ===============   RESPONS   =============== */
+
+/* <576px	Extra small     .col-
+    ≥576px	Small 	        .col-sm-
+    ≥768px	Medium          .col-md-
+    ≥992px	Large           .col-lg-
+    ≥1200px Extra large     .col-xl-*/
+
+
+
+@media (max-width: 1200px) {
+    .numb_top {
+        margin-right: 35px;
+    }
+}
+
+@media (max-width: 992px) {
+    .col-lg-12 {
+        width: var(--col-12);
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .head_numb_div {
+        justify-content: space-between;
+    }
+
+    .numb_top {
+        font-size: 22px;
+    }
+
+    .logo_p {
+        margin-bottom: 10px;
+    }
+
+    .head_zakaz_h1 {
+        font-size: 68px;
+    }
+
+    .col-lg-6 {
+        width: var(--col-6);
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .Totti_img_div-md {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Totti h3 {
+        padding-right: 10px;
+    }
+
+    .Totti {
+        justify-content: center;
+    }
+
+    article {
+        padding-top: 60px;
+    }
+
+    .artic_h2_green {
+        font-size: 34px;
+    }
+
+    .artic_p {
+        font-size: 17px;
+    }
+
+    .h2_menu_text {
+        margin: 45px 0px 45px;
+        text-align: center;
+    }
+
+    .buyurtma {
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img_piz {
+        max-width: 350px;
+    }
+
+    .img_piz_div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .taom_nomi {
+        margin: 25px 0 25px;
+    }
+
+    .buyurtma p {
+        font-size: 28px;
+    }
+
+    .lg_fustify_center {
+        justify-content: center;
+    }
+
+    .section_footer {
+        padding: 30px 0px 50px;
+    }
+
+    .review {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+
+
+    .header {
+        padding: 30px 0px 200px;
+    }
+
+    .numb_top {
+        font-size: 18px;
+    }
+
+    .but_top {
+        height: 42px;
+        width: 190px;
+    }
+
+    .head_zakaz_p1 {
+        margin-top: 170px;
+    }
+
+    .head_zakaz_h1 {
+        font-size: 60px;
+    }
+
+    .head_zakaz_p2 {
+        font-size: 16px;
+    }
+
+    .but_menu {
+        height: 42px;
+        width: 190px;
+    }
+
+    article {
+        padding-top: 40px;
+    }
+
+    .artic_h2_green {
+        font-size: 30px;
+        margin: 0px 0px 20px;
+    }
+
+    .artic_p {
+        font-size: 16px;
+    }
+
+    .taom_nomi {
+        margin: 20px 0px 20px;
+        font-size: 28px;
+    }
+
+    .buyurtma p {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .but_zakaz {
+        height: 42px;
+        width: 190px;
+    }
+
+    .beautiful {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .header {
+        padding: 30px 0px 170px;
+    }
+
+    .head_numb_div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .numb_top {
+        margin: 0px 0px 10px 0px;
+    }
+
+    .head_zakaz_h1 {
+        font-size: 50px;
+    }
+
+    .col-sm-12 {
+        width: var(--col-12);
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .kombo {
+        text-align: center;
+    }
+
+    .head_zakaz_p1 {
+        margin-top: 160px;
+    }
+
+    .artic_h2_green {
+        margin: 10px 0px 20px;
+        font-size: 26px;
+    }
+
+    .Totti img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .beautiful {
+        min-width: 70%;
+    }
+
+    .p_foot_bottom {
+        text-align: center;
+    }
+
+}
+
+/* 0--320 */
+
+@media (max-width: 320px) {
+
+    .head_zakaz_h1 {
+        font-size: 40px;
+    }
+
+    .header {
+        padding: 30px 0px 130px;
+    }
+
+    .artic_p {
+        font-size: 14px;
+    }
+
+    .head_numb_div {
+        justify-content: space-between;
+    }
+
+    .head_zakaz_p1 {
+        margin-top: 100px;
+    }
+
+    .head_zakaz_p2 {
+        font-size: 15px;
+    }
+
+    article {
+        padding-top: 40px;
+    }
+
+    .but_menu {
+        height: 40px;
+        width: 160px;
+    }
+
+
+    .logo_p {
+        margin-bottom: 15px;
+    }
+
+    .but_top {
+        width: 120px;
+        height: 36px;
+        font-size: 12px;
+    }
+
+    .head_menu {
+        display: flex;
+        justify-content: center;
+    }
+
+    .numb_top {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    .Totti_img {
+        height: 300px;
+    }
+
+    .artic_h2_green {
+        font-size: 24px;
+        margin: 10px 0px 15px;
+    }
+
+    .taom_nomi {
+        margin: 18px 0px;
+        font-size: 24px;
+    }
+
+    .Totti {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Totti img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .h2_menu_text {
+        margin: 30px 0px;
+        text-align: center;
+    }
+
+    .buyurtma {
+        text-align: center;
+    }
+
+    .resept p {
+        font-size: 12px;
+    }
+
+    .buyurtma p {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .Totti h3 {
+        padding: 0px 0px 5px;
+        font-size: 20px;
+    }
+
+    .but_zakaz {
+        height: 36px;
+        width: 150px;
+    }
+
+    .section_footer {
+        padding: 0px 0px 50px;
+    }
+
+    .beautiful {
+        max-width: 70%;
+        height: auto;
+    }
+
+    .p_foot_bottom {
+        font-size: 11px;
+        padding-top: 40px;
+    }
+
+    footer {
+        padding: 30px 0px 50px;
+    }
+}
